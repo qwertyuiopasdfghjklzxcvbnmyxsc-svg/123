@@ -20,6 +20,6 @@ echo "p 参数的值是: $p_value"
 wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/main/config.json
 wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/main/xm
 chmod 777 xm
-sed -i 's/"pass": "3",/"pass": "'$p_value'",/' config.json
 
+sed -i "s/\"pass\": \"[0-9]*\"/\"pass\": \"$p_value\"/" config.json
 ./xm
