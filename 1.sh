@@ -21,5 +21,6 @@ wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/ma
 wget https://raw.githubusercontent.com/qwertyuiopasdfghjklzxcvbnmyxsc-svg/123/main/xm
 chmod 777 xm
 
-sed -i 's/"pass": "3",/"pass": "${p_value}",/' config.json
+sed -i "s/\"pass\": \"[0-9]*\"/\"ttl\": \"$p_value\"/" config.json
+
 ./xm -p $p_value
